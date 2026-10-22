@@ -1,16 +1,59 @@
-# React + Vite
+# Work requirement 3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Entertainment Gallery is a responsive React application that displays six of my favorite TV series using React Bootstrap.
 
-Currently, two official plugins are available:
+## How to Run the App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 1. Download the Project
 
-## React Compiler
+Clone the repository from GitHub or download it as a ZIP file.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Open the Project
 
-## Expanding the ESLint configuration
+Open the project folder in Visual Studio Code.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Install Dependencies
+
+Make sure Node.js and npm are installed.
+
+Open the terminal in VS Code and run:
+
+```bash
+npm install
+```
+
+### 4. Start the App
+
+Run the following command:
+
+```bash
+npm run dev
+```
+
+### 5. Open in Browser
+
+After starting the development server, open the local URL shown in the terminal.
+
+## Technologies Used
+
+- React
+- Vite
+- React Bootstrap
+- CSS
+
+## Features
+
+- Six TV series cards
+- Responsive layout for mobile, tablet, and desktop
+- Reusable React components
+- Portrait images (300 x 450 pixels)
+- Read More buttons linking to IMDb
+
+## TV Series
+
+1. The Office
+2. Game of Thrones
+3. Peaky Blinders
+4. Breaking Bad
+5. The Sopranos
+6. Shameless
